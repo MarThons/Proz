@@ -1,7 +1,5 @@
-import datetime
-
 def calcular_idade(ano_nascimento):
-    ano_atual = datetime.datetime.now().year
+    ano_atual = 2023
     idade = ano_atual - ano_nascimento
     return idade
 
@@ -14,7 +12,7 @@ while True:
         if 1922 <= ano_nascimento <= 2021:
             idade = calcular_idade(ano_nascimento)
             print(f"Nome: {nome_completo}")
-            print(f"Idade em 2022: {idade} anos")
+            print(f"Idade em 2023: {idade} anos")
             break
         else:
             print("Ano de nascimento fora do intervalo válido (1922 a 2021). Tente novamente.")
