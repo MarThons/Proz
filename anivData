@@ -1,0 +1,20 @@
+def calcular_idade(ano_nascimento):
+    ano_atual = 2022
+    idade = ano_atual - ano_nascimento
+    return idade
+
+while True:
+    nome_completo = input("Digite seu nome completo: ")
+    
+    try:
+        ano_nascimento = int(input("Digite seu ano de nascimento (1922 a 2021): "))
+        
+        if 1922 <= ano_nascimento <= 2021:
+            idade = calcular_idade(ano_nascimento)
+            print(f"Nome: {nome_completo}")
+            print(f"Idade em 2022: {idade} anos")
+            break
+        else:
+            print("Ano de nascimento fora do intervalo válido (1922 a 2021). Tente novamente.")
+    except ValueError:
+        print("Ano de nascimento inválido. Certifique-se de inserir um valor numérico válido.")
