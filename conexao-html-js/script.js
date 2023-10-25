@@ -10,18 +10,21 @@ let texto02 = document.querySelector("#post02 .post-texto")
 //console.log(texto02)
 
 let redesFooter = document.querySelectorAll("footer .lista_redes li")
-
-
-
-
-
-
 //console.log(redesFooter)
-/*
-for(let i = 0; redesFooter.length; i++){
-    console.log("Lista elemento número: " + i)
+
+
+/*for(let i = 0; i < redesFooter.length; i++){
+    console.log(redesFooter[1]);
+}*/
+
+/*for(let i = 0; i < postAutor.length; i++){
+    console.log("Lista post número: " + i);
+}*/
+function percorrerArray(lista){
+    for(let i = 0; i < lista.length; i++){
+        console.log(lista[1]);
+    }
 }
 
-for(let i = 0; postAutor.length; i++){
-    console.log(postAutor[i])
-}*/
+percorrerArray(postAutor)
+percorrerArray(redesFooter)
