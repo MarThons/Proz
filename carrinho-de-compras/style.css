@@ -1,0 +1,60 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0;
+    
+}
+
+body {
+    background-color: thistle;
+}
+
+h1, h2 {
+    border: 10px;
+    margin: 8px;
+    padding: auto;
+}
+section {
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: auto;
+    border-radius: 4%;
+    background-color: blueviolet;
+}
+
+div .capa{
+    margin-left: 80px;
+}
+
+.item-carrinho {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.capa {
+    height: 150px;
+    width: 150px;
+    background-color: violet;
+    justify-content: center;
+    align-items: center;
+}
+
+h3, h4, p {
+    background-color: blueviolet;
+    padding: auto;
+    border: 20px;
+    margin: 8px;
+    margin-left: 80px;
+}
+
+input #quantidade-produto-01 {
+    margin-left: 80px;
+}
+
+button {
+    margin-left: 80px;
+}
+
+section #subtotal{
+    margin-left: 50px;
+}
