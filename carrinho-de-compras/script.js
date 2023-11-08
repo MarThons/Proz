@@ -1,9 +1,9 @@
 // Definição de variáveis ou Captura de elementos do DOM
-let quantidadeSubtotal = document.getElementById("quantidade-subtotal");
+const quantidadeSubtotal = document.getElementById("quantidade-subtotal");
 
-let valorSubtotal = document.getElementById("valor-subtotal");
+const valorSubtotal = document.getElementById("valor-subtotal");
 
-let subtotalInfo = {
+const subtotalInfo = {
     quantidade: 1,
     valor: 11.66
 };
@@ -14,7 +14,8 @@ let subtotalInfo = {
 // valorSubtotal.innerText = subtotalInfo.valor;
 
 function atualizarDOM(){
-    quantidadeSubtotal.innerText = subtotalInfo.quantidade + " itens";
+    const itensText = subtotalInfo.quantidade  > 1 ? ' itens' : ' item' 
+    quantidadeSubtotal.innerText = subtotalInfo.quantidade + itensText;
     valorSubtotal.innerText = subtotalInfo.valor.toFixed(2);
 }
 atualizarDOM();
@@ -23,11 +24,11 @@ atualizarDOM();
 
 
 //Capturar elementos para aumentar a quantidade
-let btnAdicionarUm = document.getElementById("btn-adicionar-produto-01");
+const btnAdicionarUm = document.getElementById("btn-adicionar-produto-01");
 
-let quantidadeProdutoUm = document.getElementById("quantidade-produto-01");
+const quantidadeProdutoUm = document.getElementById("quantidade-produto-01");
 
-let valorProduto01 = 11.66;
+const valorProduto01 = 11.66;
 
 //Função
 function adicionarUm(){
@@ -46,10 +47,11 @@ function adicionarUm(){
 };
 
 // Capturar elementos para diminuir a quantiidade
-let btnSubitrairUm = document.getElementById("btn-subtrair-produto-01");
+const btnSubitrairUm = document.getElementById("btn-subtrair-produto-01");
 
 //Funçao
 function diminuirUm(){
+    if(quantidadeProdutoUm.value > 0){
      //Incrementando a quantidade do produto
      quantidadeProdutoUm.value = Number(quantidadeProdutoUm.value) - 1;
      // Obtenha o valor atual do campo de entrada como um número
@@ -62,7 +64,7 @@ function diminuirUm(){
 
  //Atualizar DOM
  atualizarDOM();
-};
+}};
 
 // Eventos
 btnAdicionarUm.addEventListener("click", adicionarUm);

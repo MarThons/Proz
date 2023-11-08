@@ -1,60 +1,51 @@
 * {
-    padding: 0px;
-    margin: 0px;
-    border: 0;
-    
-}
-
-body {
-    background-color: thistle;
-}
-
-h1, h2 {
-    border: 10px;
-    margin: 8px;
-    padding: auto;
-}
-section {
-    align-items: center;
-    justify-content: center;
-    width: 400px;
-    height: auto;
-    border-radius: 4%;
-    background-color: blueviolet;
-}
-
-div .capa{
-    margin-left: 80px;
-}
-
-.item-carrinho {
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.capa {
-    height: 150px;
-    width: 150px;
-    background-color: violet;
-    justify-content: center;
-    align-items: center;
-}
-
-h3, h4, p {
-    background-color: blueviolet;
-    padding: auto;
-    border: 20px;
-    margin: 8px;
-    margin-left: 80px;
-}
-
-input #quantidade-produto-01 {
-    margin-left: 80px;
-}
-
-button {
-    margin-left: 80px;
-}
-
-section #subtotal{
-    margin-left: 50px;
-}
+    box-sizing: content-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkslategrey;
+  }
+  
+  body {
+    background-color: honeydew;
+  }
+  
+  #carrinho {
+    display: flex;
+  }
+  
+  .item-carrinho {
+    background-color: lightseagreen;
+    margin-right: 2rem;
+    padding: 1rem 1.5rem;
+    width: 300px;
+    border-radius: 8px;
+  }
+  
+  .capa {
+    width: 80px;
+    height: 100px;
+    background-color: lightgray;
+    position: relative;
+  }
+  
+  .capa::after {
+    content: "Capa";
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+  
+  input {
+    width: 40px;
+    text-align: center;
+  }
+  
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  #subtotal {
+    font-size: 1.2rem;
+  }
