@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "nome": "Notebook XYZ",
+      "marca": "ABC",
+      "categoria": "Eletrônicos",
+      "preco": 1999.99,
+      "quantidadeEstoque": 10,
+      "prontaEntrega": true
+    },
+    {
+      "id": 2,
+      "nome": "Fone de Ouvido Bluetooth",
+      "marca": "XYZ",
+      "categoria": "Acessórios",
+      "preco": 79.99,
+      "quantidadeEstoque": 25,
+      "prontaEntrega": false
+    },
+    {
+      "id": 3,
+      "nome": "Mochila Esportiva",
+      "marca": "123",
+      "categoria": "Moda",
+      "preco": 49.99,
+      "quantidadeEstoque": 15,
+      "prontaEntrega": true
+    },
+    {
+      "id": 4,
+      "nome": "Smartphone ABC",
+      "marca": "XYZ",
+      "categoria": "Eletrônicos",
+      "preco": 899.99,
+      "quantidadeEstoque": 8,
+      "prontaEntrega": true
+    },
+    {
+      "id": 5,
+      "nome": "Câmera Digital 20MP",
+      "marca": "DEF",
+      "categoria": "Fotografia",
+      "preco": 299.99,
+      "quantidadeEstoque": 12,
+      "prontaEntrega": false
+    },
+    {
+      "id": 6,
+      "nome": "Tênis de Corrida",
+      "marca": "456",
+      "categoria": "Esportes",
+      "preco": 89.99,
+      "quantidadeEstoque": 20,
+      "prontaEntrega": true
+    },
+    {
+      "id": 7,
+      "nome": "Livro: Aventuras Fantásticas",
+      "marca": "789",
+      "categoria": "Livros",
+      "preco": 19.99,
+      "quantidadeEstoque": 30,
+      "prontaEntrega": true
+    },
+    {
+      "id": 8,
+      "nome": "Relógio Inteligente",
+      "marca": "GHI",
+      "categoria": "Acessórios",
+      "preco": 129.99,
+      "quantidadeEstoque": 18,
+      "prontaEntrega": false
+    },
+    {
+      "id": 9,
+      "nome": "Cadeira de Escritório Ergonômica",
+      "marca": "1011",
+      "categoria": "Móveis",
+      "preco": 149.99,
+      "quantidadeEstoque": 15,
+      "prontaEntrega": true
+    },
+    {
+      "id": 10,
+      "nome": "Teclado sem Fio",
+      "marca": "1213",
+      "categoria": "Informática",
+      "preco": 59.99,
+      "quantidadeEstoque": 22,
+      "prontaEntrega": true
+    }
+  ]
+  
