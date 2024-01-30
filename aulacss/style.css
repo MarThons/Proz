@@ -1,0 +1,29 @@
+h1 {
+    color: blue;
+    background-color: aquamarine;
+}
+
+div {
+    background-color: lightgrey;
+    margin: 40px;
+    padding: 20px;
+    border: solid black 8px;
+}
+
+p {
+    background-color: bisque;
+}
+
+.caixa {
+    color: black;
+    background-color: white;
+    padding: 30px 60px 80px 100px;
+    margin: 21px 25px 27px 29px;
+    border: 20px 30px 40px 50px solid black;
+}
+
+html {
+    background-color: blueviolet;
+    text-align: center;
+
+}
