@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Cor de fundo do body */
+    color: #333; /* Cor do texto padrão */
+  }
+  
+  p {
+    margin: 10px 0; /* Espaçamento das margens para os parágrafos */
+  }
+  
+  h1 {
+    color: #8a2be2; /* Cor roxa para os títulos h1 */
+  }
+  
+  /* Adicione mais estilos conforme necessário para outros elementos */
+  img.logo {
+    width: 150px; /* Largura desejada para o logotipo */
+    height: auto; /* Altura automática para manter a proporção original */
+  }  
