@@ -1,0 +1,13 @@
+.container {
+    background-color: rgb(252, 199, 135);
+    color: brown;
+    width: 20rem;
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.indisponivel {
+    background-color: bisque;
+    color: rgb(163, 119, 119);
+}
