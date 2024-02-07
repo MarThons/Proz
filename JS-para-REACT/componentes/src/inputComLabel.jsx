@@ -1,17 +1,13 @@
+import styles from './InputComLabel.module.css'
+
 function InputComLabel({ idString, textoLabel, children }) {
     return <>
-        <label htmlFor={idString}>{textoLabel}</label>
+        <label className={styles.texto} htmlFor={idString}>{textoLabel}</label>
         {children}
-        <input type="text" id={idString} nome={idString} />
+        <input  type="text" id={idString} nome={idString} />
         <br />
     </>
 }
 
-function Botao({textoBotao}){
-    return <button>
-        {textoBotao}
-    </button>
-}
 
-export default InputComLabel  
-export {Botao} 
+export default InputComLabel
